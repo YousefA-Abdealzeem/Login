@@ -185,11 +185,22 @@ body{
     background-color: #870000a4;
 }
 
-
+@media (max-width: 460px){
+    #form-section{
+        width: 100%;
+        margin-top: 50px;
+    }
+    #card-section .container .row .card .card-body{
+        margin: 0px 50px;
+    }
+}
 @media(max-width: 576px){
     #form-section{
         width: 100%;
         margin-top: 50px;
+    }
+    #form-section .row .form-group{
+        width: 100%;
     }
     #card-section .container .row .card .card-body{
         margin: 0px 50px;
@@ -210,12 +221,4 @@ body{
     }
 
 }
-@media (max-width: 460px){
-    #form-section{
-        width: 100%;
-        margin-top: 50px;
-    }
-    #card-section .container .row .card .card-body{
-        margin: 0px 50px;
-    }
-}
+
